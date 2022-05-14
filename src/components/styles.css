@@ -1,0 +1,6 @@
+.Somecomponent {
+  width: 500px;
+  background: #00acec;
+  display: flex;;
+  flex-wrap: nowrap;
+}
