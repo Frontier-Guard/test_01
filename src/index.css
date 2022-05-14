@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  background-image: url(https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg);
+  background-size: contain;
+
+  background-image: url(https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

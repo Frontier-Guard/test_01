@@ -1,0 +1,13 @@
+.CommonButton {
+  display: inline-block;
+  align-content: center;
+  justify-items: flex-start;
+  padding: 10px 50px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+
+.CommonButton img {
+  color: #a2dca2;
+  cursor: pointer;
+}

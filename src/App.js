@@ -2,20 +2,14 @@ import logo from './logo.svg';
 import ToxaProfileCard from './components/ToxaProfileCard/ToxaProfileCard'
 import './App.css';
 import TheHeader from "./components/TheHeader/TheHeader";
+import CommonButton from "./components/CommonButton/CommonButton";
 
 function App() {
   return (
     <div className="App">
-        <TheHeader></TheHeader>
-        <ToxaProfileCard/>
-        <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Learn React
-        </a>
+      <CommonButton/>
+
+
     </div>
   );
 }
