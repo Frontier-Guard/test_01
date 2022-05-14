@@ -6,19 +6,17 @@ import {
     Link
 } from "react-router-dom";
 import './App.css';
-                import TheHeader from "./components/TheHeader/TheHeader";
-                import MainPageView from "./views/MainPageView/MainPageView";
-                import PressButtonView from "./views/PressButtonView/PressButtonView";
+import TheHeader from "./components/TheHeader/TheHeader";
+import MainPageView from "./views/MainPageView/MainPageView";
+import PressButtonView from "./views/PressButtonView/PressButtonView";
 
-                function App() {
-                return (
-                <div className="App">
-                <Router>
-
-            {/* A <Switch> looks through its children <Route>s and
+function App() {
+  return (
+    <div className="App">
+        <Router>
+                {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
                 <Routes>
-
                 <Route exact path="/"
                 element={<PressButtonView/>}
                 >
@@ -32,7 +30,6 @@ import './App.css';
                 >
                 </Route>
                 </Routes>
-
         </Router>
     </div>
   );

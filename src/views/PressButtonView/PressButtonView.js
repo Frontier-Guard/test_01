@@ -9,9 +9,9 @@ export default function PressButtonView(props) {
                 <CommonButton
                     routeTo={'/main'}
                     imageSrc={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/HumanRightsLogo.svg/250px-HumanRightsLogo.svg.png"}
+                    animated={true}
                 />
-
-             </div>
+            </div>
         </React.Fragment>
     );
 }

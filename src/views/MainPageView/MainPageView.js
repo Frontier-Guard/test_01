@@ -9,11 +9,9 @@ export default function MainPageView(props) {
     return (
         <React.Fragment>
             <div className={'MainPageView'}>
-
                 <CommonButton className={"BackButton"}>
-                ><button>назад</button>
+                <button>назад</button>
                 </CommonButton>
-
             </div>
         </React.Fragment>
     );

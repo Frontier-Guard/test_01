@@ -3,6 +3,9 @@
   align-content: center;
   justify-items: flex-start;
   padding: 10px 50px;
+}
+
+.CommonButton.CommonButton--animated {
   animation: App-logo-spin infinite 20s linear;
 }
 
