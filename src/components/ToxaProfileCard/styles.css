@@ -1,6 +1,11 @@
 .Somecomponent {
-  width: 500px;
+  width: 100%;
   background: #00acec;
   display: flex;;
   flex-wrap: nowrap;
 }
+
+.Somecomponent div {
+  margin: 20px;
+}
+

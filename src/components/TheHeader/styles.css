@@ -1,0 +1,14 @@
+.TheHeader {
+  background: red;
+  display: flex;
+  justify-items: flex-start;
+  padding: 10px 50px;
+}
+
+.TheHeader button {
+  margin-right: 10px;
+}
+
+.TheHeader span {
+  background: #a2dca2;
+}
