@@ -1,11 +1,16 @@
 import './styles.css';
+import {Link} from "react-router-dom";
 
 export default function CommonButton(props) {
     return (
         <div className="CommonButton">
-            <img src={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/HumanRightsLogo.svg/250px-HumanRightsLogo.svg.png"}/>
-
-            { props.children }
+            <Link to={props.routeTo || '/'}>
+                <img src={props.imageSrc}/>
+                { props.children }
+            </Link>
         </div>
+
+
     );
 }
+

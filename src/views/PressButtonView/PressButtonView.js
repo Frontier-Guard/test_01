@@ -6,8 +6,12 @@ export default function PressButtonView(props) {
     return (
         <React.Fragment>
             <div className={'PressButtonView'}>
-                <CommonButton/>
-            </div>
+                <CommonButton
+                    routeTo={'/main'}
+                    imageSrc={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/HumanRightsLogo.svg/250px-HumanRightsLogo.svg.png"}
+                />
+
+             </div>
         </React.Fragment>
     );
 }
