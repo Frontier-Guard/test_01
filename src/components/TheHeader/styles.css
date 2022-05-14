@@ -5,6 +5,21 @@
   padding: 10px 50px;
 }
 
+.TheHeader li {
+  display: inline-block;
+  margin: 4px;
+  text-decoration: none;
+  background: white;
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+
+.TheHeader li:hover {
+  background: #ccc;
+}
+
 .TheHeader button {
   margin-right: 10px;
 }

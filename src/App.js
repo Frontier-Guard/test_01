@@ -1,15 +1,42 @@
-import logo from './logo.svg';
-import ToxaProfileCard from './components/ToxaProfileCard/ToxaProfileCard'
+import React from "react";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+} from "react-router-dom";
 import './App.css';
 import TheHeader from "./components/TheHeader/TheHeader";
-import CommonButton from "./components/CommonButton/CommonButton";
+import MainPageView from "./views/MainPageView/MainPageView";
+import PressButtonView from "./views/PressButtonView/PressButtonView";
 
 function App() {
   return (
     <div className="App">
-      <CommonButton/>
+        <Router>
+            <TheHeader>
+                Sometext
+            </TheHeader>
+            <div>
+                {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+                <Routes>
 
-
+                    <Route exact path="/"
+                           element={<MainPageView/>}
+                    >
+                    </Route>
+                    <Route path="/main"
+                           element={<MainPageView/>}
+                    >
+                    </Route>
+                    <Route path="/button"
+                           element={<PressButtonView/>}
+                    >
+                    </Route>
+                </Routes>
+            </div>
+        </Router>
     </div>
   );
 }

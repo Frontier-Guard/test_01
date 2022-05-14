@@ -1,3 +1,14 @@
+body,
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  background-image: url(https://inventrade.ru/upload/iblock/eb4/eb4fb522967a294ff36f1837bd60fd76.jpg);
+  background-size: contain;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
